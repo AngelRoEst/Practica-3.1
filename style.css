@@ -104,13 +104,34 @@
     width: 16%;
   }
 
-  .col-4-wholefish {width: 50%;}
-  .col-5-filletfish {width: 50%;}
-  .col-6-cuerpo{width: 100%;}
-  .col-7-srhimp{width: 50%;}
-  .col-8-prawns{width: 50%;}
-  .col-9-oysters-molluscs{width: 50%;}
-  .col-10-shellfish {width: 50%;}
+  .col-4-wholefish {
+    width: 50%;
+    border: 1px solid black;
+  }
+  .col-5-filletfish {
+    width: 50%;
+    border: 1px solid black;
+  }
+  .col-6-cuerpo{
+    width: 100%;
+  }
+
+  .col-7-srhimp{
+    width: 50%;
+    border: 200px solid black;
+  }
+  .col-8-prawns{
+    width: 50%;
+    border: 1px solid black;
+  }
+  .col-9-oysters-molluscs{
+    width: 50%;
+    border: 1px solid black;
+  }
+  .col-10-shellfish {
+    width: 50%;
+    border: 1px solid black;
+  }
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
   
