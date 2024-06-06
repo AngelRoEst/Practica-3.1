@@ -1,7 +1,54 @@
+@media (max-width: 1200px) {
+    h1 {
+      font-size: 40px;
+    }
+    .header-medium {
+      padding: 2px 8%;
+    }
+}
+  
+@media (max-width: 992px) {
+    h1 {
+      font-size: 35px;
+    }
+    .header {
+      flex-direction: column;
+    }
+    .header-medium {
+      padding: 2px 5%;
+    }
+    .logo, .nombres {
+      flex: none;
+      width: 100%;
+      text-align: center;
+    }
+}
+  
+@media (max-width: 768px) {
+    h1 {
+      font-size: 30px;
+    }
+    .pagina {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    .header-medium {
+      padding: 2px 3%;
+    }
+}
+  
+@media (max-width: 576px) {
+    h1 {
+      font-size: 25px;
+    }
+    .header-medium {
+      padding: 2px 1%;
+    }
+}
+
 * {
   box-sizing: border-box;
 }
-
 
 .row::after {
     content: "";
