@@ -50,28 +50,51 @@
 }   
   
 @media (max-width: 576px) {
-    h1 {
-      font-size: 25px;
+    .col-4-wholefish h1,
+    .col-5-filletfish h1,
+    .col-10-shellfish h1,
+    .col-7-shrimp h1,
+    .col-8-prawns h1,
+    .col-9-oysters-molluscs h1 {
+        font-size: 18px;
     }
-    .header-medium {
-      padding: 2px 1%;
+    
+    .col-4-wholefish h3,
+    .col-5-filletfish h3,
+    .col-10-shellfish h3,
+    .col-7-shrimp h3,
+    .col-8-prawns h3,
+    .col-9-oysters-molluscs h3 {
+        font-size: 14px;
+    }
+
+    .col-4-wholefish,
+    .col-5-filletfish,
+    .col-10-shellfish,
+    .col-7-shrimp,
+    .col-8-prawns,
+    .col-9-oysters-molluscs {
+        width: 100%;
     }
 }
 
 @media (max-width: 430px) {
-    h1 {
-      font-size: 20px;
+    .col-4-wholefish h1,
+    .col-5-filletfish h1,
+    .col-10-shellfish h1,
+    .col-7-shrimp h1,
+    .col-8-prawns h1,
+    .col-9-oysters-molluscs h1 {
+        font-size: 16px;
     }
-    .header-medium {
-      padding: 2px 0.5%;
-    }
-    .button-about, .button-product, .button-contact, .button-order {
-      width: 100%;
-      padding: 2px;
-    }
-    [class*="col-"] {
-      width: 100%;
-      padding: 2px;
+
+    .col-4-wholefish h3,
+    .col-5-filletfish h3,
+    .col-10-shellfish h3,
+    .col-7-shrimp h3,
+    .col-8-prawns h3,
+    .col-9-oysters-molluscs h3 {
+        font-size: 12px;
     }
 }
 
