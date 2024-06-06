@@ -123,30 +123,30 @@
   }
 
   .col-4-wholefish {
-    width: 50%;
+    width: 33.33%;
     border: 1px solid black;
   }
   .col-5-filletfish {
-    width: 50%;
+    width: 33.33%;
     border: 1px solid black;
   }
 
   .col-10-shellfish {
-    width: 50%;
+    width: 33.33%;
     border: 1px solid black;
   }  
   
-  .col-7-srhimp{
-    width: 50%;
+  .col-7-shrimp{
+    width: 33.33%;
     border: 1px solid black;
   }
 
   .col-8-prawns{
-    width: 50%;
+    width: 33.33%;
     border: 1px solid black;
   }
   .col-9-oysters-molluscs{
-    width: 50%;
+    width:  33.33%;
     border: 1px solid black;
   }
  
