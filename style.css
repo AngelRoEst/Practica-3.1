@@ -46,6 +46,23 @@
     }
 }
 
+@media (max-width: 430px) {
+    h1 {
+      font-size: 20px;
+    }
+    .header-medium {
+      padding: 2px 0.5%;
+    }
+    .button-about, .button-product, .button-contact, .button-order {
+      width: 100%;
+      padding: 2px;
+    }
+    [class*="col-"] {
+      width: 100%;
+      padding: 2px;
+    }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -137,4 +154,6 @@ h1{
     flex: 2;
 }
 
-
+.col-3-navegacion{
+    border: 1px solid black;
+}
